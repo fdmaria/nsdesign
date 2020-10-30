@@ -1,0 +1,13 @@
+// configuracion
+@import 'config.scss';
+// foundation
+@import 'foundation.scss';
+// header
+@import 'includes/header.scss';
+// home
+@import 'home/banner.scss';
+
+* {
+  padding: 0px;
+  margin: 0px;
+}

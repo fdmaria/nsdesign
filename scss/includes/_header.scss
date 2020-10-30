@@ -1,0 +1,38 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background:  rgb(238, 238, 238);
+  &__i{
+      margin-left: 0.5em;
+      &__btn{
+          color: #2ba6cb;
+          font-weight: 700;
+          font-family: Roboto,sans-serif;
+          font-size: 20px;
+          &:hover {
+              color: #0fb9b1;
+          }
+      }
+  }
+  &__d{
+      display: flex;
+      &__ul{
+          display: flex;
+          margin: 0.5em;
+          &__li{
+              list-style: none;
+              margin-left: 1.5em;
+              &__a{
+                  color: #2ba6cb;
+                  font-weight: 500;
+                  font-family: Roboto,sans-serif;
+                  font-size: 17px;
+                  &:hover {
+                      color: #0fb9b1;
+                  }
+              }
+          }
+      }
+  }
+}
