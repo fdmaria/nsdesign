@@ -1,11 +1,11 @@
 // configuracion
-@import 'config.scss';
+@import '_config.scss';
 // foundation
-@import 'foundation.scss';
+@import '_foundation.scss';
 // header
-@import 'includes/header.scss';
+@import 'includes/_header.scss';
 // home
-@import 'home/banner.scss';
+@import 'home/_banner.scss';
 
 * {
   padding: 0px;
